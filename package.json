@@ -1,6 +1,9 @@
 {
   "name": "nuxt-app",
   "private": true,
+  "overrides": {
+    "vue": "latest"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -11,5 +14,9 @@
   "devDependencies": {
     "@types/node": "^18",
     "nuxt": "^3.4.1"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.8",
+    "pinia": "^2.0.34"
   }
 }
