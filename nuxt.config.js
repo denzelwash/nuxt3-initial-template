@@ -18,7 +18,16 @@ export default defineNuxtConfig({
 			]
 		}
 	},
-	modules: ['@pinia/nuxt'],
+	googleFonts: {
+		display: 'swap',
+		families: {
+			Inter: [400],
+			Roboto: [400]
+		}
+	},
+
+	modules: ['@pinia/nuxt', '@nuxtjs/google-fonts'],
+	buildModules: ['@nuxtjs/google-fonts'],
 	vite: {
 		css: {
 			preprocessorOptions: {
