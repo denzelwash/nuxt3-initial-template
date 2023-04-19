@@ -3,4 +3,5 @@ export default defineNuxtConfig({
   modules: [
     '@pinia/nuxt',
   ],
+  css: ['normalize.css'],
 })
