@@ -19,5 +19,18 @@ export default defineNuxtConfig({
 		}
 	},
 	modules: ['@pinia/nuxt'],
-	css: ['normalize.css']
+	vite: {
+		css: {
+			preprocessorOptions: {
+				scss: {
+					additionalData: `
+                  @import "assets/scss/vars.scss";
+                  @import "assets/scss/mixins.scss";
+                `
+				}
+			}
+		}
+	},
+
+	css: ['normalize.css', '@/assets/scss/main.scss']
 })
