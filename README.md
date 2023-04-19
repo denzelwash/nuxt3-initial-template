@@ -1,4 +1,17 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Стартовый шаблон
+
+## Установлены:
+
+```bash
+pinia
+normalize.css
+sass + миксины от 5-го бутстрапа для медиазапросов
+eslint
+prettier
+google-fonts
+```
+
+---
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
