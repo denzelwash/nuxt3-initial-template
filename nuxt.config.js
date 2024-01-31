@@ -25,7 +25,6 @@ export default defineNuxtConfig({
 			Roboto: [400]
 		}
 	},
-
 	modules: ['@pinia/nuxt', '@nuxtjs/google-fonts'],
 	buildModules: ['@nuxtjs/google-fonts'],
 	vite: {
@@ -40,6 +39,5 @@ export default defineNuxtConfig({
 			}
 		}
 	},
-
 	css: ['normalize.css', '@/assets/scss/main.scss']
 })
