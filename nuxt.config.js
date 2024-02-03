@@ -25,7 +25,8 @@ export default defineNuxtConfig({
 			Roboto: [400]
 		}
 	},
-	modules: ['@pinia/nuxt', '@nuxtjs/google-fonts'],
+	modules: ['@pinia/nuxt', '@nuxtjs/google-fonts', '@nuxtjs/tailwindcss'],
+	tailwindcss: {},
 	vite: {
 		css: {
 			preprocessorOptions: {
