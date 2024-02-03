@@ -15,12 +15,12 @@
 		"eslint-config-prettier": "^9.1.0",
 		"nuxt": "^3.10.0",
 		"vue": "^3.4.15",
-		"vue-router": "^4.2.5"
+		"vue-router": "^4.2.5",
+		"sass": "^1.70.0"
 	},
 	"dependencies": {
 		"@pinia/nuxt": "^0.5.1",
 		"normalize.css": "^8.0.1",
-		"pinia": "^2.1.7",
-		"sass": "^1.70.0"
+		"pinia": "^2.1.7"
 	}
 }
