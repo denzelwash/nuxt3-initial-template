@@ -21,8 +21,7 @@ export default defineNuxtConfig({
 	googleFonts: {
 		display: 'swap',
 		families: {
-			Inter: [400],
-			Roboto: [400]
+			Inter: [400]
 		}
 	},
 	modules: ['@pinia/nuxt', '@nuxtjs/google-fonts', '@nuxtjs/tailwindcss'],
@@ -32,12 +31,12 @@ export default defineNuxtConfig({
 			preprocessorOptions: {
 				scss: {
 					additionalData: `
-                  @import "assets/scss/vars.scss";
-                  @import "assets/scss/mixins.scss";
-                `
+						@import "assets/scss/vars.scss";
+						@import "assets/scss/mixins.scss";
+					`
 				}
 			}
 		}
 	},
-	css: ['normalize.css', '@/assets/scss/main.scss']
+	css: ['@/assets/scss/main.scss']
 })

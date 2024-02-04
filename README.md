@@ -4,7 +4,7 @@
 
 ```bash
 pinia
-normalize.css
+tailwind
 sass + миксины от 5-го бутстрапа для медиазапросов
 eslint
 prettier
