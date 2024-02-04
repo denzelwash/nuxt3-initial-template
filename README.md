@@ -1,11 +1,11 @@
-# Nuxt 3 Стартовый шаблон
+# Nuxt 3 initial template
 
-## Установлены:
+## Installed:
 
 ```bash
 pinia
 tailwind
-sass + миксины от 5-го бутстрапа для медиазапросов
+sass
 eslint
 prettier
 google-fonts
