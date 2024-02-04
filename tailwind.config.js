@@ -1,5 +1,25 @@
 export default {
-	theme: {},
+	theme: {
+		container: {
+			center: true,
+			padding: '1rem'
+		},
+		fontFamily: {
+			primary: ['Inter', 'Arial', 'sans-serif']
+		},
+		screens: {
+			sm: '576px',
+			md: '768px',
+			lg: '1024px',
+			xl: '1280px',
+			'2xl': '1536px'
+		},
+		extend: {
+			colors: {
+				primary: '#EA4213'
+			}
+		}
+	},
 	plugins: [],
 	content: [
 		`@/components/**/*.{vue,js,ts}`,
@@ -13,5 +33,6 @@ export default {
 		`@/Error.{js,ts,vue}`,
 		`@/error.{js,ts,vue}`,
 		`@/app.config.{js,ts}`
-	]
+	],
+	prefix: 'tw-'
 }

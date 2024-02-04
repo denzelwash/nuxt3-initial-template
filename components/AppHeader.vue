@@ -1,5 +1,9 @@
 <template>
-	<div class="page-header">header</div>
+	<div class="page-header">
+		<div class="tw-container">
+			<h2>Header</h2>
+		</div>
+	</div>
 </template>
 
 <script setup></script>
