@@ -1,4 +1,5 @@
 export default {
+	prefix: 'tw-',
 	theme: {
 		container: {
 			center: true,
@@ -8,11 +9,11 @@ export default {
 			primary: ['Inter', 'Arial', 'sans-serif']
 		},
 		screens: {
-			sm: '576px',
-			md: '768px',
-			lg: '1024px',
-			xl: '1280px',
-			'2xl': '1536px'
+			'2xl': { max: '1535px' },
+			xl: { max: '1279px' },
+			lg: { max: '1023px' },
+			md: { max: '767px' },
+			sm: { max: '575px' }
 		},
 		extend: {
 			colors: {
@@ -33,6 +34,5 @@ export default {
 		`@/Error.{js,ts,vue}`,
 		`@/error.{js,ts,vue}`,
 		`@/app.config.{js,ts}`
-	],
-	prefix: 'tw-'
+	]
 }

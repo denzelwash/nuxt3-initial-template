@@ -25,15 +25,14 @@ export default defineNuxtConfig({
 		}
 	},
 	modules: ['@pinia/nuxt', '@nuxtjs/google-fonts', '@nuxtjs/tailwindcss'],
-	tailwindcss: {},
+	tailwindcss: {
+		cssPath: '@/assets/scss/tailwind.scss'
+	},
 	vite: {
 		css: {
 			preprocessorOptions: {
 				scss: {
-					additionalData: `
-						@import "assets/scss/vars.scss";
-						@import "assets/scss/mixins.scss";
-					`
+					additionalData: ''
 				}
 			}
 		}

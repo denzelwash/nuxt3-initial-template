@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	position: relative;
+	min-width: 320px;
+	font-family: theme('fontFamily.primary');
+	background-color: theme('colors.white');
+}
+
+@layer base {
+	.tw-container {
+		@apply tw-max-w-[1536px] 2xl:tw-max-w-[1280px] xl:tw-max-w-[1024px] lg:tw-max-w-[768px] md:tw-max-w-[576px] sm:tw-max-w-full;
+		/* max full hd */
+		/* @apply tw-max-w-[1920px]; */
+	}
+}
