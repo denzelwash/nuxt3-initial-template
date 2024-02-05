@@ -6,6 +6,7 @@
 pinia
 tailwind
 sass
+vueuse
 eslint
 prettier
 google-fonts

@@ -24,7 +24,7 @@ export default defineNuxtConfig({
 			Inter: [400]
 		}
 	},
-	modules: ['@pinia/nuxt', '@nuxtjs/google-fonts', '@nuxtjs/tailwindcss'],
+	modules: ['@pinia/nuxt', '@nuxtjs/google-fonts', '@nuxtjs/tailwindcss', '@vueuse/nuxt'],
 	tailwindcss: {
 		cssPath: '@/assets/scss/tailwind.scss'
 	},
