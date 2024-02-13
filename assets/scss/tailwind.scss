@@ -10,9 +10,9 @@ body {
 }
 
 @layer base {
-	.tw-container {
-		@apply tw-max-w-[1536px] 2xl:tw-max-w-[1280px] xl:tw-max-w-[1024px] lg:tw-max-w-[768px] md:tw-max-w-[576px] sm:tw-max-w-full;
+	.container {
+		@apply max-w-[1536px] 2xl:max-w-[1280px] xl:max-w-[1024px] lg:max-w-[768px] md:max-w-[576px] sm:max-w-full;
 		/* max full hd */
-		/* @apply tw-max-w-[1920px]; */
+		/* @apply max-w-[1920px]; */
 	}
 }

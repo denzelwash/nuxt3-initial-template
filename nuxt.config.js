@@ -13,7 +13,10 @@ export default defineNuxtConfig({
 				{ property: 'og:image', content: '' },
 				{ property: 'og:image:width', content: '1200' },
 				{ property: 'og:image:height', content: '630' }
-			]
+			],
+			bodyAttrs: {
+				class: 'body-custom-class'
+			}
 		}
 	},
 	googleFonts: {
@@ -22,9 +25,12 @@ export default defineNuxtConfig({
 			Inter: [400]
 		}
 	},
-	modules: ['@pinia/nuxt', '@nuxtjs/google-fonts', '@nuxtjs/tailwindcss', '@vueuse/nuxt'],
-	tailwindcss: {
-		cssPath: '@/assets/scss/tailwind.scss'
+	modules: ['@pinia/nuxt', '@nuxtjs/google-fonts', '@vueuse/nuxt'],
+	postcss: {
+		plugins: {
+			tailwindcss: {},
+			autoprefixer: {}
+		}
 	},
 	vite: {
 		css: {
@@ -35,5 +41,5 @@ export default defineNuxtConfig({
 			}
 		}
 	},
-	css: ['@/assets/scss/main.scss']
+	css: ['@/assets/scss/tailwind.scss', '@/assets/scss/main.scss']
 })

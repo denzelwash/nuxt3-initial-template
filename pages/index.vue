@@ -1,6 +1,6 @@
 <template>
-	<div class="tw-container">
-		<h1 class="2xl:tw-text-primary sm:tw-text-yellow-500">Index</h1>
+	<div class="container">
+		<h1 class="2xl:text-primary sm:text-yellow-500">Index</h1>
 	</div>
 </template>
 
