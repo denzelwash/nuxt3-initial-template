@@ -1,6 +1,8 @@
 <template>
 	<div class="container">
-		<h1 class="2xl:text-primary sm:text-yellow-500">Index</h1>
+		<div class="min-h-[calc(100dvh-132px)] flex justify-center items-center">
+			<h1 class="text-2xl text-primary py-10">Index</h1>
+		</div>
 	</div>
 </template>
 

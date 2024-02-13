@@ -1,7 +1,9 @@
 <template>
-	<div class="page-footer">
+	<div class="border-t-2">
 		<div class="container">
-			<h2>Footer</h2>
+			<div class="h-16 flex items-center">
+				<h2>Footer</h2>
+			</div>
 		</div>
 	</div>
 </template>
